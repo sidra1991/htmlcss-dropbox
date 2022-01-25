@@ -1,19 +1,29 @@
 /* nav */
 
 nav {
+    position:relative;
+    display: block;
+ 
+    z-index: +3;
+    background-color: white;
     overflow: hidden;
-    /* position: fixed; */
     max-height: 3rem;
-    width: 75rem;
 }
+
+.anti-bug {
+    position: fixed;
+    width: 75rem;
+    background-color: white;
+}
+
 
 nav img{
     padding-top: 1rem;
     width: 100px;
 }
 
-.destra li{
-    margin-right: 10px;
+nav li{
+    margin-top: 1rem;
 }
 
 nav a {
@@ -36,10 +46,41 @@ nav button {
 
 header {
     background-color:#b4d0e7 ;
-    margin-top: 6rem;
     position: relative;
+    margin-top: 3.8rem;
+    display: block;
+    max-height: 100vh;
 }
 
-header img {
-    width: 100px;
+#jumbo {
+    width: 610px;
+    padding-top: 1rem;
+}
+
+header h1{
+    font-size: 3.2rem;
+    padding-left: 6rem;
+    padding-right: 8rem;
+    padding-top: 4rem;
+}
+
+.text1{
+    width: 16rem;
+    padding-left: 6rem;
+    padding-top: 1rem;
+    padding-right: 3rem;
+    margin-bottom: 1rem;
+    font-size: 0.65rem;
+}
+
+header button {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#icona {
+    position: relative;
+    width: 50px;
+    top: 6rem;
+    right: 10rem;
 }
