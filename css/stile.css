@@ -2,7 +2,7 @@
 
 nav {
     overflow: hidden;
-    position: fixed;
+    /* position: fixed; */
     max-height: 3rem;
     width: 75rem;
 }
@@ -33,3 +33,13 @@ nav button {
 }
 
 /* header */
+
+header {
+    background-color:#b4d0e7 ;
+    margin-top: 6rem;
+    position: relative;
+}
+
+header img {
+    width: 100px;
+}

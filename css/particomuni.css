@@ -30,3 +30,8 @@ button a {
 ul {
     list-style-type: none;
 }
+
+.anti-bug {
+    width: 100%;
+    height: 100%;
+}
