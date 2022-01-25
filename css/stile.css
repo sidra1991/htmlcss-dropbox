@@ -183,3 +183,9 @@ li span{
     bottom: 3rem;
     left: 33rem;
 }
+
+.foto {
+    background-image: url(../img/img/partner.png);
+    background-size: cover;
+    width: 50%;
+}
