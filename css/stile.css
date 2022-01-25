@@ -233,3 +233,58 @@ li span{
 .tris div {
     border: none;
 }
+
+.piccola {
+    line-height: 1.5rem;
+    margin-top: 10rem;
+}
+
+.piccola h1 {
+    font-size: large;
+    margin-bottom: 2rem;
+}
+
+/* tavola dei loghi */
+
+.tavola {
+    height: 15rem;
+    width: 74rem;
+    background-color: chartreuse;
+    margin-left: 0;
+}
+
+.marhio {
+    width: 5rem;
+    height: 5rem;
+    overflow: hidden;
+}
+
+.qxq {
+    width: 20rem;
+    height: 20rem;
+}
+
+.desin {
+    width: 34rem;
+    height: 20rem;
+}
+
+.marchio svg {
+    width: 5rem;
+    height: 5rem;
+    display: block;
+    fill:white;
+}
+.one{
+    border: 0.2rem solid #d0e9cd;
+    background-color: #a2d39b;
+    width: 4.8rem;
+    height: 4.8rem;
+}
+.two {
+    background-color: #61082b;
+}
+
+.tre {
+    background-color:#0093ce ;
+}
