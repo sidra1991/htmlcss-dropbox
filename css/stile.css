@@ -1,0 +1,35 @@
+/* nav */
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    max-height: 3rem;
+    width: 75rem;
+}
+
+nav img{
+    padding-top: 1rem;
+    width: 100px;
+}
+
+.destra li{
+    margin-right: 10px;
+}
+
+nav a {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding-bottom: 0.8rem;
+}
+
+li a:hover {
+    border-bottom: 1px solid black;
+}
+
+nav button {
+    margin-top: 0.8rem;
+}
+
+/* header */
