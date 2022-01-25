@@ -89,7 +89,7 @@ header button {
 /* sezione 1 */
 
 .contenitore1{
-    width: 50rem;
+    width: 53rem;
     height: 45rem;
 }
 
@@ -158,15 +158,15 @@ li span{
     height: 1px;
 }
 
-#centrale {
-    margin-left: 0.8rem;
-    margin-right: 0.8rem;
+.centrale {
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 #orizontal {
     border:1px solid #d8d8db;
-    width: 100%;
-    height: 9rem;
+    width: 53rem;
+    height: 10rem;
     margin-top: 4rem;
     position: relative;
 }
@@ -184,8 +184,52 @@ li span{
     left: 33rem;
 }
 
+/* sezione con foto */
+
 .foto {
     background-image: url(../img/img/partner.png);
     background-size: cover;
-    width: 50%;
+    width: 58%;
+    height: 25rem;
+    display: inline-block;
+
+}
+
+.part2 {
+    height: 30rem;
+    position: relative;
+}
+
+.text2{
+    display: inline-block;
+    width: 40%;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.part2 a {
+    color: black;
+}
+
+.text2 div{
+    position: relative;
+    bottom:8rem;
+    left: 1rem;
+}
+
+/* sezione a 6 carte */
+
+.tris {
+    width: 53rem;
+    height: 25rem;;
+    line-height: 1.2rem;
+}
+
+.tris img{
+    width: 100%;
+    height: auto;
+}
+
+.tris div {
+    border: none;
 }

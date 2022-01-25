@@ -53,3 +53,21 @@ span {
     margin-right: 1rem;
     margin-left: 0;
 }
+
+.but-type2 {
+    background-color: honeydew;
+    border: 1px solid black;
+    color: black;
+    margin-top: 2rem;
+}
+
+
+h2 {
+    padding-bottom: 3rem;
+    font-size: 1.4rem;
+}
+
+h3 {
+    padding-bottom: 1.5rem;
+    font-size: 1.2rem; 
+}
