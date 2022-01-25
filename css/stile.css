@@ -50,6 +50,7 @@ header {
     margin-top: 3.8rem;
     display: block;
     max-height: 100vh;
+    margin-bottom: 10rem;
 }
 
 #jumbo {
@@ -83,4 +84,81 @@ header button {
     width: 50px;
     top: 6rem;
     right: 10rem;
+}
+
+/* sezione 1 */
+
+.contenitore1{
+    width: 50rem;
+    height: 45rem;
+}
+
+.vertical {
+    border: 1px solid #d8d8db;
+    width: 16rem;
+    margin-top: 2rem;
+    height: 100%;
+}
+
+.part1 h2{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
+.check {
+    border: 1px solid #d8d8db;
+    border-radius: 50%;
+    padding:5px;
+    display: inline-block;
+}
+
+#uno {
+    border: 3px solid blue;
+}
+
+.rettangolo {
+    border: 1px solid #d8d8db;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.allineamento{
+    margin-left: 0.5rem;
+}
+
+.allineamento *{
+    margin:1rem;
+    font-size:0.8rem;
+    margin-left: 0;
+}
+
+.allineamento button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.allineamento h3 {
+    font-size: 1.3rem;
+}
+
+.allineamento ul {
+    padding-left: 0;
+}
+
+li span{
+    color: blue;
+}
+
+.fantasmino {
+    background-color: #d8d8db;
+    width: 3rem;
+    height: 1px;
+}
+
+#centrale {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
 }

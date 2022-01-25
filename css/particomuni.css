@@ -36,3 +36,20 @@ ul {
 .dimenzione{
     max-width: 75rem;
 }
+
+.icona {
+    width: 10px;
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+}
+
+section {
+    margin-top: 4rem;
+    margin-left: 12rem;
+    width: 50rem;
+}
+
+span {
+    margin-right: 1rem;
+    margin-left: 0;
+}
