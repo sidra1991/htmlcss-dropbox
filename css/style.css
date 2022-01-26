@@ -33,13 +33,13 @@ button a{
 
 .but-type2 {
     background-color: honeydew;
-    border: 1px solid black;
     color: black;
     margin-top: 2rem;
 }
 
 .but-type2 a{
     color:black;
+    padding:1rem;
 }
 
 ul {
@@ -54,13 +54,17 @@ ul {
 .center {
     margin-top: 4rem;
     margin-left: 12rem;
-    width: 50rem;
+    width: 55rem;
 }
 
 .fantasmino {
     background-color: #d8d8db;
     width: 3rem;
     height: 1px;
+}
+
+.tris {
+    width: 53rem;
 }
 
 /* nav bar ricontrollata */
@@ -212,4 +216,228 @@ li span{
     padding-bottom: 1rem;
 }
 
-/* foto correzione */
+/* foto corretta */
+
+
+.foto {
+    width: 30rem;
+}
+
+.text2{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    width: 40%;
+
+}
+
+/* 6 carte corretto */
+
+.card {
+    width: 16rem;
+    margin-top:2rem;
+}
+
+.tris img{
+    width: 100%;
+}
+
+/* sezuione con solo titolo corretta*/
+
+.piccola {
+    margin-top: 10rem;
+}
+
+/* sezione con i loghi correzione */
+
+.tavola {
+    margin-top: 3rem;
+    width: 74rem;
+}
+
+.marchio {
+    width: 10rem;
+    height: 10rem;
+}
+
+.qxq {
+    width: 20rem;
+}
+
+.desin {
+    width: 34rem;
+    height: 20rem;
+}
+
+path {
+    fill:white;
+}
+
+.marchio svg {
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    left: 3rem;
+    top: 3rem;
+}
+
+.svg-nera {
+    width: 5rem;
+    height: 1rem;
+    position: relative;
+    top:5rem;
+    left:2rem;
+}
+
+.desin {
+    background-color: #f5f5f5;
+    overflow: scroll;
+}
+
+.desin2 {
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+#designit {
+    width: 6rem;
+    margin-bottom: 2rem;
+}
+
+.desin2 p {
+    margin-top:2rem;
+}
+
+.platea {
+    width: 100%;
+    height: 10rem;
+    background-color: #b4d0e7;
+    color:#61082b;
+}
+
+.platea h2{
+    margin-top: 4rem;
+    padding-left: 9rem;
+    padding-right: 6rem;
+    line-height: 2rem;
+}
+
+.platea div{
+    width: 49%;
+}
+
+.platea button {
+    margin-top: 4rem;
+    margin-left: 16rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.one{
+    border: 0.2rem solid #d0e9cd;
+    background-color: #a2d39b;
+    width: 9.6rem;
+    height: 9.6rem;
+}
+
+.two {
+    background-color: #61082b;
+}
+
+.tre {
+    background-color:#0093ce ;
+}
+
+.four {
+    background-color: #ff1c1c;
+}
+
+.five{
+    background-color: #d5001f;
+}
+
+.six{
+    background-color: #b4d0e7;
+}
+
+.seven{
+    background-color:#0d2481 ;
+}
+
+.eight{
+    background-color: #ffd830;
+}
+
+/* domande e risposte corretto */
+
+
+.domanda {
+    border-bottom: 1px solid #8b8888;
+    width: 100%;
+    height: 3rem;
+    vertical-align: middle;
+    margin-top: 1rem;
+}
+
+.dom-titolo h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.domanda span{
+    padding-left: 20rem;
+}
+
+.risp{
+    opacity: 0; 
+    position: relative;
+    bottom: 3rem;
+    font-size: 1rem;
+}
+
+.risp:hover{
+    opacity: 1;
+    padding-top: 6rem;
+    border-bottom: 1px solid black;
+}
+
+.domanda:hover{
+    border-bottom: 1px dotted black;
+    margin-bottom: 5rem;
+}
+
+/* footer correzione */
+
+footer {
+    background-color: black;
+    color: white;
+    height: 30rem;
+    width: 74rem;
+    margin-top: 5rem;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.lista-madre{
+    padding-top: 4rem;
+    margin-bottom: 6rem;
+}
+.lista-madre li{
+    margin-left: 5rem;
+}
+
+.lista-madre li li{
+    margin-left: 0rem;
+}
+
+footer select{
+    margin-top: 3rem;
+    border: none;
+    color: white;
+    background-color: black;
+}
