@@ -12,7 +12,7 @@ nav {
 
 .anti-bug {
     position: fixed;
-    width: 75rem;
+    min-width: 75rem;
     background-color: white;
 }
 
@@ -54,7 +54,7 @@ header {
 }
 
 #jumbo {
-    width: 610px;
+    width: 700px;
     padding-top: 1rem;
 }
 
@@ -63,6 +63,7 @@ header h1{
     padding-left: 6rem;
     padding-right: 8rem;
     padding-top: 4rem;
+    line-height: 3rem;
 }
 
 .text1{
@@ -79,18 +80,15 @@ header button {
     margin-bottom: 0.5rem;
 }
 
-#icona {
-    position: relative;
-    width: 50px;
-    top: 6rem;
-    right: 10rem;
+header .fas{
+    font-size: 3rem;
 }
 
 /* sezione 1 */
 
 .contenitore1{
     width: 53rem;
-    height: 65rem;
+    height: 50rem;
 }
 
 .vertical {
@@ -142,10 +140,6 @@ header button {
 
 .allineamento h3 {
     font-size: 1.3rem;
-}
-
-.allineamento ul {
-    padding-left: 0;
 }
 
 li span{
@@ -220,7 +214,7 @@ li span{
 
 .tris {
     width: 53rem;
-    height: 33rem;;
+    height: 25rem;;
 }
 
 .tris img{
@@ -244,6 +238,7 @@ li span{
 /* tavola dei loghi */
 
 .tavola {
+    margin-top: 3rem;
     height: 32rem;
     width: 74rem;
     background-color: chartreuse;
@@ -395,7 +390,7 @@ li span{
 
 .risp:hover{
     opacity: 1;
-    padding-top: 5rem;
+    padding-top: 6rem;
     border-bottom: 1px solid black;
 }
 
@@ -422,11 +417,6 @@ footer a{
     padding-top: 4rem;
     margin-bottom: 6rem;
 }
-
-.lista-madre ul{
-    padding-left: 0;
-}
-
 .lista-madre li{
     margin-left: 5rem;
 }
