@@ -49,7 +49,7 @@ header {
     position: relative;
     margin-top: 3.8rem;
     display: block;
-    max-height: 100vh;
+    max-height: 31rem;
     margin-bottom: 10rem;
 }
 
@@ -410,4 +410,43 @@ li span{
 .domanda:hover{
     border-bottom: 1px dotted black;
     margin-bottom: 4rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 30rem;
+    width: 74rem;
+    line-height: 2rem;
+    margin-top: 5rem;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.lista-madre{
+    padding-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.lista-madre ul{
+    padding-left: 0;
+}
+
+.lista-madre li{
+    margin-left: 5rem;
+}
+
+.lista-madre li li{
+    margin-left: 0rem;
+}
+
+footer select{
+    margin-top: 3rem;
+    border: none;
+    color: white;
+    background-color: black;
 }
