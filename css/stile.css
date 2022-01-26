@@ -247,16 +247,17 @@ li span{
 /* tavola dei loghi */
 
 .tavola {
-    height: 15rem;
+    height: 20rem;
     width: 74rem;
     background-color: chartreuse;
     margin-left: 0;
 }
 
-.marhio {
-    width: 5rem;
-    height: 5rem;
-    overflow: hidden;
+.marchio {
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+    background-color: blue;
 }
 
 .qxq {
@@ -270,16 +271,19 @@ li span{
 }
 
 .marchio svg {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     display: block;
     fill:white;
+    position: relative;
+    left: 3rem;
+    top: 3rem;
 }
 .one{
     border: 0.2rem solid #d0e9cd;
     background-color: #a2d39b;
-    width: 4.8rem;
-    height: 4.8rem;
+    width: 9.6rem;
+    height: 9.6rem;
 }
 .two {
     background-color: #61082b;
@@ -287,4 +291,16 @@ li span{
 
 .tre {
     background-color:#0093ce ;
+}
+
+.svg-nera {
+    width: 5rem;
+    height: 1rem;
+    display: block;
+    position: relative;
+    top:40%;
+}
+
+.four {
+    background-color: #ff1c1c;
 }
