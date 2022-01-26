@@ -371,3 +371,43 @@ li span{
     padding-bottom: 0.5rem;
     border: none;
 }
+
+/* domande freguenti */
+
+
+.domanda {
+    border-bottom: 1px solid #8b8888;
+    width: 100%;
+    height: 3rem;
+    line-height: 2rem;
+    vertical-align: middle;
+    margin-top: 1rem;
+}
+
+.dom-titolo h2 {
+    font-size: 2rem;
+}
+
+.domanda span{
+    padding-left: 20rem;
+}
+
+.risp{
+    opacity: 0; 
+    position: relative;
+    bottom: 3rem;
+    line-height: 1rem;
+    font-size: 1rem;
+}
+
+.risp:hover{
+    opacity: 1;
+    padding-top: 5rem;
+    line-height: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.domanda:hover{
+    border-bottom: 1px dotted black;
+    margin-bottom: 4rem;
+}
