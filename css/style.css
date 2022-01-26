@@ -25,7 +25,7 @@ button {
     padding: 5px;
 }
 
-button a {
+button a{
     text-decoration: none;
     color: white;
     padding:14px;
@@ -55,4 +55,175 @@ ul {
     margin-top: 4rem;
     margin-left: 12rem;
     width: 50rem;
+}
+
+/* nav bar ricontrollata */
+
+nav {
+    position:relative;
+    z-index: +3;
+    overflow: hidden;
+}
+
+.anti-bug {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: fixed;
+    width: 75rem;
+    background-color: white;
+}
+
+nav img{
+    width: 100px;
+}
+
+nav li{
+    margin-top: 0.2rem;
+}
+
+nav li a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding-bottom: 0.8rem;
+    color: black;
+}
+
+li a:hover {
+    border-bottom: 1px solid black;
+}
+
+.livv {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* header controllato */
+
+
+header {
+    background-color:#b4d0e7 ;
+    margin-top: 3.8rem;
+    max-height: 31rem;
+    margin-bottom: 10rem;
+}
+
+#jumbo {
+    width: 700px;
+    padding-top: 1rem;
+}
+
+header h1{
+    font-size: 3.2rem;
+    padding-left: 6rem;
+    padding-right: 8rem;
+    padding-top: 2rem;
+    line-height: 3rem;
+}
+
+.text1{
+    width: 16rem;
+    padding-left: 6rem;
+    padding-top: 1rem;
+    padding-right: 5rem;
+    margin-bottom: 1rem;
+}
+
+header .fas{
+    font-size: 3rem;
+}
+
+/* sezione 1 in correzione*/
+
+
+.contenitore1{
+    width: 53rem;
+    height: 50rem;
+}
+
+.vertical {
+    border: 1px solid #d8d8db;
+    width: 16rem;
+    margin-top: 2rem;
+    height: 100%;
+}
+
+.part1 h2{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
+.check {
+    border: 1px solid #d8d8db;
+    border-radius: 50%;
+    padding:5px;
+    display: inline-block;
+}
+
+#uno {
+    border: 3px solid blue;
+}
+
+.rettangolo {
+    border: 1px solid #d8d8db;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.allineamento{
+    margin-left: 0.5rem;
+}
+
+.allineamento *{
+    margin:1rem;
+    font-size:0.8rem;
+    margin-left: 0;
+}
+
+.allineamento button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.allineamento h3 {
+    font-size: 1.3rem;
+}
+
+li span{
+    color: blue;
+}
+
+.fantasmino {
+    background-color: #d8d8db;
+    width: 3rem;
+    height: 1px;
+}
+
+.centrale {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#orizontal {
+    border:1px solid #d8d8db;
+    width: 53rem;
+    height: 15rem;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.interno *{
+    margin:1rem;
+    font-size:0.8rem;
+    margin-left: 0;
+    margin-left:2rem;
+}
+
+.interno button{
+    position: absolute;
+    bottom: 3rem;
+    left: 33rem;
 }
