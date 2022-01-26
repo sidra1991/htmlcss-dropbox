@@ -1,0 +1,42 @@
+* {
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2rem;
+}
+
+.clear::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+button {
+    background-color: #0061ff;
+    display: block;
+    border: none;
+    padding: 5px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.but-type2 {
+    background-color: honeydew;
+    border: 1px solid black;
+    color: black;
+    margin-top: 2rem;
+}
+
+.but-type2 a{
+    color:black;
+}
