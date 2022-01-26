@@ -57,6 +57,12 @@ ul {
     width: 50rem;
 }
 
+.fantasmino {
+    background-color: #d8d8db;
+    width: 3rem;
+    height: 1px;
+}
+
 /* nav bar ricontrollata */
 
 nav {
@@ -133,24 +139,18 @@ header .fas{
     font-size: 3rem;
 }
 
-/* sezione 1 in correzione*/
+/* sezione 1 corretta */
 
 
-.contenitore1{
+.tris{
     width: 53rem;
-    height: 50rem;
 }
 
 .vertical {
     border: 1px solid #d8d8db;
     width: 16rem;
     margin-top: 2rem;
-    height: 100%;
-}
-
-.part1 h2{
-    font-size: 2rem;
-    padding-bottom: 3rem;
+    height: 50rem;
 }
 
 .check {
@@ -169,8 +169,6 @@ header .fas{
     text-align: center;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
-    display: inline-block;
-    width: 100%;
 }
 
 .allineamento{
@@ -186,20 +184,11 @@ header .fas{
 .allineamento button {
     margin-top: 2rem;
     margin-bottom: 2rem;
-}
-
-.allineamento h3 {
-    font-size: 1.3rem;
+    margin-left: 1rem;
 }
 
 li span{
     color: blue;
-}
-
-.fantasmino {
-    background-color: #d8d8db;
-    width: 3rem;
-    height: 1px;
 }
 
 .centrale {
@@ -210,20 +199,17 @@ li span{
 #orizontal {
     border:1px solid #d8d8db;
     width: 53rem;
-    height: 15rem;
     margin-top: 4rem;
-    position: relative;
 }
 
-.interno *{
-    margin:1rem;
-    font-size:0.8rem;
-    margin-left: 0;
-    margin-left:2rem;
+.orizontal-left {
+    width: 30rem;
 }
 
-.interno button{
-    position: absolute;
-    bottom: 3rem;
-    left: 33rem;
+.allineamento2 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
 }
+
+/* foto correzione */

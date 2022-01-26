@@ -41,7 +41,6 @@
 
 .tris {
     width: 53rem;
-    height: 25rem;;
 }
 
 .tris img{
@@ -49,9 +48,6 @@
     height: auto;
 }
 
-.tris div {
-    border: none;
-}
 
 .piccola {
     margin-top: 10rem;
