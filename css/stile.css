@@ -304,3 +304,39 @@ li span{
 .four {
     background-color: #ff1c1c;
 }
+
+.desin {
+    background-color: #f5f5f5;
+    overflow: scroll;
+    line-height: 1.5rem;
+}
+
+#designit {
+    width: 6rem;
+    margin-bottom: 2rem;
+}
+
+.desin2 {
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.desin2 p {
+    margin-top:2rem;
+}
+
+.five{
+    background-color: #d5001f;
+}
+
+.six{
+    background-color: #b4d0e7;
+}
+
+.seven{
+    background-color:#0d2481 ;
+}
+
+.eight{
+    background-color: #ffd830;
+}
