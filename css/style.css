@@ -4,6 +4,10 @@
     line-height: 1rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 .clear::after {
     content: '';
     display: table;
@@ -26,7 +30,6 @@ button {
 }
 
 button a{
-    text-decoration: none;
     color: white;
     padding:14px;
 }
@@ -175,14 +178,32 @@ header .fas{
     padding-top: 0.5rem;
 }
 
+.grigio {
+    color: gray;
+    font-size: 0.7rem;
+}
+
 .allineamento{
-    margin-left: 0.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
 }
 
 .allineamento *{
-    margin:1rem;
+    margin-top:1rem;
     font-size:0.8rem;
     margin-left: 0;
+}
+
+.sep {
+    display: inline-block;
+    width: 12rem;
+    vertical-align: top;
+    color: black;
+}
+
+.allineamento i {
+    margin-top: 1.2rem;
+    margin-right: 0.4rem;
 }
 
 .allineamento button {
@@ -369,7 +390,7 @@ path {
     background-color: #ffd830;
 }
 
-/* domande e risposte corretto */
+/* domande e risposte cambiare sistema*/
 
 
 .domanda {
@@ -411,15 +432,18 @@ path {
 
 footer {
     background-color: black;
-    color: white;
     height: 30rem;
-    width: 74rem;
     margin-top: 5rem;
+    color: white;
+}
+
+footer .fantasmino {
+    margin-left: 5rem;
+    width: 5rem;
 }
 
 footer a{
     color: white;
-    text-decoration: none;
     font-size: 0.8rem;
 }
 
@@ -427,6 +451,7 @@ footer a{
     padding-top: 4rem;
     margin-bottom: 6rem;
 }
+
 .lista-madre li{
     margin-left: 5rem;
 }
@@ -440,4 +465,8 @@ footer select{
     border: none;
     color: white;
     background-color: black;
+}
+
+footer i{
+    margin-left: 5rem;
 }
