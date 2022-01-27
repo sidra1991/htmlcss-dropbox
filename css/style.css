@@ -398,39 +398,22 @@ path {
 
 /* domande e risposte cambiare sistema*/
 
-
 .domanda {
     padding-top: 1rem;
     width: 100%;
-    height: 4rem;
+    height: 2rem;
     vertical-align: middle;
     margin-top: 1rem;
     position: relative;
     background-color: white;
-}
-
-.domanda:hover{
-    background:none;
+    top:2rem;
+    border-bottom: 1px solid lightgrey;
 }
 
 .dominio {
     margin-left: 22rem;
 }
 
-.nascosto{
-    position: relative;
-    left: 49.4rem;
-    top: ;
-    background-color: white;
-    border-bottom: ;
-}
-
-.risp {
-    position: relative;
-    background-color: rgba(100, 0,0, 0.2);
-    border-bottom: 1px solid #8b8888;
-    z-index: -1;
-}
 
 /* footer correzione */
 
