@@ -398,10 +398,14 @@ path {
 
 /* domande e risposte cambiare sistema*/
 
+.dom-titolo {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 2rem;
+}
+
 .domanda {
-    padding-top: 1rem;
     width: 100%;
-    height: 2rem;
+    height: 3rem;
     vertical-align: middle;
     margin-top: 1rem;
     position: relative;
@@ -410,10 +414,35 @@ path {
     border-bottom: 1px solid lightgrey;
 }
 
-.dominio {
-    margin-left: 22rem;
+.nascosto{
+    position: relative;
+    right: 0.9rem;
+    opacity: 0;
 }
 
+
+.dominio {
+    margin-left: 22rem;
+    display: inline-block;
+}
+
+.risp {
+    margin-top: 0.5rem;
+    opacity:0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.domanda:hover{
+    border: none;
+}
+
+.domanda:hover .dominio{
+    transform: rotate(180deg);
+}
+
+.domanda:hover .risp{
+opacity: 1;
+}
 
 /* footer correzione */
 
