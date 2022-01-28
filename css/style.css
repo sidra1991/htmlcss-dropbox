@@ -486,3 +486,11 @@ footer select{
 footer i{
     margin-left: 5rem;
 }
+
+/* correct */
+
+.correct1 {
+    width: 100%;
+    height: 34rem;
+    overflow: hidden;
+}
