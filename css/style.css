@@ -4,6 +4,7 @@
     line-height: 1rem;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -22,26 +23,18 @@ a {
     float: right;
 }
 
-button {
+.button{
+    color: white;
+    padding:14px;
     background-color: #0061ff;
     display: block;
     border: none;
-    padding: 5px;
-}
-
-button a{
-    color: white;
-    padding:14px;
 }
 
 .but-type2 {
     background-color: honeydew;
     color: black;
     margin-top: 2rem;
-}
-
-.but-type2 a{
-    color:black;
     padding:1rem;
 }
 
