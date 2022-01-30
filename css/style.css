@@ -60,12 +60,13 @@ ul {
 }
 
 .tris {
-    width: 53rem;
+    width: 100vw;
 }
 
 /* nav bar ricontrollata */
 
 nav {
+    width: 100vW;
     overflow: hidden;
     height: 4rem;
 }
@@ -75,7 +76,7 @@ nav {
     position: fixed;
     min-width: 75rem;
     background-color: white;
-    height: calc(3.1rem - 2px);
+    height: calc(4rem - 2px);
 }
 
 nav li{
@@ -94,15 +95,12 @@ li a:hover {
 nav li a {
     display: inline-block;
     padding-bottom: 10.px;
-    line-height: 3rem;
+    line-height: 2.8rem;
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
     color: black;
 }
-
-
-
 
 nav img{
     vertical-align: sub;
@@ -112,29 +110,39 @@ nav img{
 
 
 header {
-    width: 100wh;
+    width: 100vw;
     background-color:#b4d0e7 ;
-    /* margin-top: 3rem; */
-    max-height: 31rem;
+    max-height: 70vh;
     margin-bottom: 10rem;
 }
 
 #jumbo {
-    width: 700px;
+    max-width: 45vw;
     padding-top: 1rem;
+}
+
+.pp {
+    width: 80vw;
+    height: 85vh;
+    overflow: hidden;
+    margin-left: 10%;
 }
 
 header h1{
     font-size: 3.2rem;
-    padding-left: 6rem;
     padding-right: 8rem;
     padding-top: 2rem;
     line-height: 3rem;
 }
 
+.in-block{
+    display:inline-block;
+}
+
 .text1{
-    width: 16rem;
-    padding-left: 6rem;
+    width: 30%;
+    height: 100%;
+    /* padding-left: 6rem; */
     padding-top: 1rem;
     padding-right: 5rem;
     margin-bottom: 1rem;
@@ -146,16 +154,12 @@ header .fas{
 
 /* sezione 1 corretta */
 
-
-.tris{
-    width: 53rem;
-}
-
 .vertical {
     border: 1px solid #d8d8db;
-    width: 16rem;
+    width: 20vw;
     margin-top: 2rem;
     height: 50rem;
+    margin-left:5vw;
 }
 
 .check {
@@ -210,13 +214,13 @@ header .fas{
     margin-left: 1rem;
 }
 
-.fa-check{
-    color: blue;
+.allineamento li{
+    margin-left: 0;
+    padding-left: 0;
 }
 
-.centrale {
-    margin-left: 2rem;
-    margin-right: 2rem;
+.fa-check{
+    color: blue;
 }
 
 #orizontal {
@@ -486,7 +490,7 @@ footer i{
 /* correct */
 
 .correct1 {
-    height: 34rem;
     overflow: hidden;
-    margin-left: 25%;
+    margin-left: 5vw;
+    width: 90vw;
 }
