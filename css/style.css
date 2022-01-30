@@ -25,7 +25,7 @@ a {
 
 .button{
     color: white;
-    padding:0px 30px;
+    padding:10px 30px;
     background-color: #0061ff;
     display: inline-block;
     border: none;
@@ -37,7 +37,7 @@ a {
 }
 
 .but-type2 {
-    background-color: honeydew;
+    background-color: white;
     color: black;
     margin-top: 2rem;
     padding:1rem;
@@ -45,6 +45,7 @@ a {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .center {
@@ -64,6 +65,11 @@ ul {
 }
 
 /* nav bar ricontrollata */
+
+#nav-btn {
+    padding:5px 30px;
+    margin-right: 2vw;
+}
 
 nav {
     width: 100vW;
@@ -158,7 +164,6 @@ header .fas{
     border: 1px solid #d8d8db;
     width: 20vw;
     margin-top: 2rem;
-    height: 50rem;
     margin-left:5vw;
 }
 
@@ -174,7 +179,7 @@ header .fas{
 }
 
 .rettangolo {
-    border: 1px solid #d8d8db;
+    border-bottom: 1px solid #d8d8db;
     text-align: center;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
@@ -214,10 +219,6 @@ header .fas{
     margin-left: 1rem;
 }
 
-.allineamento li{
-    margin-left: 0;
-    padding-left: 0;
-}
 
 .fa-check{
     color: blue;
@@ -225,12 +226,14 @@ header .fas{
 
 #orizontal {
     border:1px solid #d8d8db;
-    width: 53rem;
-    margin-top: 4rem;
+    width: 70vw;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
 }
 
 .orizontal-left {
-    width: 30rem;
+    width: 50vw;
 }
 
 .allineamento2 {
@@ -243,7 +246,7 @@ header .fas{
 
 
 .foto {
-    width: 30rem;
+    width: 40vw;
 }
 
 .text2{
@@ -260,7 +263,8 @@ header .fas{
 /* 6 carte corretto */
 
 .card {
-    width: 16rem;
+    margin-left: 2vw;
+    width: 25vw;
     margin-top:2rem;
 }
 
@@ -493,4 +497,10 @@ footer i{
     overflow: hidden;
     margin-left: 5vw;
     width: 90vw;
+}
+
+.correct2 {
+    overflow: hidden;
+    margin-left: 10vw;
+    width: 81vw;
 }
